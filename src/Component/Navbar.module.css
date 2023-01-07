@@ -1,0 +1,69 @@
+.container{
+    padding: 25px;
+    max-height: 45px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    flex-direction: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.container span{
+    position: relative;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+}
+.items{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.impForm{
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    right:75px;
+    color: white;
+}
+.line{
+    list-style: none;
+}
+.line li{
+    margin: auto;
+    margin-right: 25px;
+
+}
+
+.navItem{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    /* border: 1px solid black; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    width: 15px;
+    position: relative;
+    justify-content: space-between;
+}
+.wishlist{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    position: relative;
+    justify-content: space-between;
+}

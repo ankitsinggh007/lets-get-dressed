@@ -1,0 +1,24 @@
+.Register{
+    padding: 20px;
+    width: 35vw;
+    min-width: 30vw;
+    height: 70vh;
+    min-height: 32vh;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Logo_register{
+    border-radius: 50%;
+}
+
+.Register div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
